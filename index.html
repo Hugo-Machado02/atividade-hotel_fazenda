@@ -1,1 +1,81 @@
-html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="img/Icone.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div id="menu-principal">
+                <ul>
+                    <li><a href="index.html" class="menu-item">Home</a></li>
+                    <li><a href="paginas/arvorismo.html" class="menu-item">Arvorismo</a></li>
+                    <li><a href="paginas/cachoeiras.html" class="menu-item">Cachoeiras</a></li>
+                    <li><a href="paginas/rapel.html" class="menu-item">Rapel</a></li>
+                    <li><a href="paginas/tirolesa.html" class="menu-item">Tirolesa</a></li>
+                </ul>
+            </div>
+            <div id="btn-menu-mobile">
+                <button type="button" onclick="abrirMenu()" id="btn-mobile"><img id="btn-icone" src="img/menu_fechar.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <li><a href="paginas/arvorismo.html" class="menu-item">Arvorismo</a></li>
+                <li><a href="paginas/cachoeiras.html" class="menu-item">Cachoeiras</a></li>
+                <li><a href="paginas/rapel.html" class="menu-item">Rapel</a></li>
+                <li><a href="paginas/tirolesa.html" class="menu-item">Tirolesa</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="apresentacao">
+            <img src="img/banner_inicial.png" alt="Banner - Hotel Fazenda">
+        </section>
+        <section id="informacoes">
+            <div class="grid-container">
+                <div class="imagens">
+                    <img src="img/lugar.png" alt="">
+                </div>
+                <div class="infos">
+                    <h1>Hotel Fazenda - Vale das Pedras</h1>
+                    <p>Aqui no hotel vale das Pedras, contamos com uma equipe extremamente capacitada, para oferecer a melhor experiencia para nossos clientes, desde a acomodação e todas as nossas atividades de lazer.</p>
+
+                    <p>para isso, contamos com uma ótima hospitalidade e infraestrutura, e também diversas atividades de lazer, sejam elas em piscinas com equipes de recreação e animação, quanto para pessoas que gostam de explorar os lugares, como <span>Arvorismo</span>, <span>Cachoeiras</span>, <span>Rapel</span> e <span>Tirolesa</span>.</p>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="infos">
+                    <h1>Acomodações - Vale das Pedras</h1>
+                    <p>A equipe que temos no Hotel, são os melhores para oferecer o melhor atendimento e comodidado para os clientes, como serviço de quarto e tecnicos de infraestrutura.</p>
+                    
+                    <p>Aqui no Vale das Pedras temos as melhores infraestruturas, contando com quartos muito bonitos e modernos, de diversos valores. Temos quartos mais em conta, quatos para solteiros e casais. mas também temos quatos que oferecem ainda mais conforto, como nossa Suíte presidencial, que possui uma hidromassagem dentro do quarto.</p>
+                </div>
+                <div class="imagens">
+                    <img src="img/quarto.png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="direitos">
+            <span>Direitos Reservados Hotel Fazenda Vale das Pedras&copy;</span>
+        </div>
+        <div id="contato">
+            <em><p>Contato: (62) 9 9999-9999</p></em>
+        </div>
+    </footer>
+</body>
+</html>
